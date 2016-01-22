@@ -1,5 +1,5 @@
 {
-  "name": "package",
+  "name": "generator-stamplay",
   "version": "0.0.0",
   "description": "An unnoficial Stamplay Project Generator.",
   "homepage": "https://github.com/J0hnRoger/generator-stamplay",
@@ -9,13 +9,18 @@
     "url": "http://code-cube.ghost.io/"
   },
   "files": [
+    "yeoman-generator",
     "generators"
   ],
   "main": "generators\\index.js",
   "keywords": [
     "Stamplay"
   ],
-  "dependencies": {},
+  "dependencies": {
+      "yeoman-generator": "^0.19.0",
+      "chalk": "^1.0.0",
+      "yosay": "^1.0.2"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-livereload": "^3.8.1",
