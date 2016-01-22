@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "description": "An unnoficial Stamplay Project Generator.",
+  "homepage": "https://github.com/J0hnRoger/generator-stamplay",
+  "author": {
+    "name": "J0hnRoger",
+    "email": "jonathan.roger4@gmail.com",
+    "url": "http://code-cube.ghost.io/"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators\\index.js",
+  "keywords": [
+    "Stamplay"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-shell": "^0.5.1",
+    "gulp-watch": "^4.3.5"
+  },
+  "license": "MIT"
+}
